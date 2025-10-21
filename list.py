@@ -202,7 +202,7 @@ def scrape_kibo_ui() -> List[Tuple[str, str, str]]:
 
 
 def write_markdown(all_components):
-    filename = "list.md"
+    filename = "components-list.md"
     
     with open(filename, "w", encoding="utf-8") as f:
         f.write("# Unified Component List\n\n")
